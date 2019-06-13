@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- title：多益点 - 专注拼多多导购电商
+keyword：多益点,拼多多,导购,省钱,赚钱,合伙人,代理,商城,优惠券,购物券
+description：多益点平台，享大数据营销，专注优质拼多多商品内容打造，帮助媒体实现利益最大化，同时帮助拼多多商家打造爆款，您不可缺少的拼多多智能化营销系统！ -->
+
+    <meta name="description" content="多益点平台，享大数据营销，专注优质拼多多商品内容打造，帮助媒体实现利益最大化，同时帮助拼多多商家打造爆款，您不可缺少的拼多多智能化营销系统！" />
+    <meta name="keywords" content="多益点,拼多多,导购,省钱,赚钱,合伙人,代理,商城,优惠券,购物券" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="http://www.hzduomi.cn/favicon.ico" type="image/x-icon" />
+    <!-- <title>多益点-专注拼多多导购电商</title> -->
+    <title>多益点 - 专注拼多多导购电商</title>
+    <link rel="stylesheet" href="css/index.css?rev=@@hash">
+    <link rel="stylesheet" media="screen and (max-width:414px)" href="css/index_mobile.css?rev=@@hash"
+        type="text/css" />
+    <script src="js/jquery.min.js?rev=@@hash"></script>
+    <!-- <style>
+        @media (max-width: 414px) {
+            .banner_container,.item_box,.nav_container,.mid_item_list_container,.bottom_item_container,.footer_container{
+                width: 90%;margin: 0 auto;
+            }
+            html{
+                font-size: 14px;as
+            }
+        }
+    </style> -->
+    <style>
+        @media only screen and (min-width: 414px) and (max-width: 1200px) {
+
+            .nav,
+            .banner_box,
+            .footer,
+            .mid_item_list,
+            .bottom_item_list {
+                width: 1200px;
+                margin: 0 auto;
+            }
+
+            html {
+                /* font-size: 14px; */
+            }
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            $('.temp_year').text((new Date()).getFullYear());
+            $('.img_').click(function () {
+                var el = $(this);
+                if (parseInt(el.attr('click')) == 1) {
+                    $(this).attr('click', '0');
+                    $('.img_').css({
+                        opacity: 1
+                    });
+                    $(this).css({
+                        opacity: 1
+                    });
+                } else {
+                    $(this).attr('click', '1');
+                    $('.img_').css({
+                        opacity: 1
+                    });
+                    $(this).css({
+                        opacity: 0
+                    });
+                }
+            });
+            //滚动触发动画
+            if ($(window).width() > 414) {
+                return;
+            } else {
+                $(window).on('scroll', function () {
+                    if ($(window).scrollTop() >= 1000) {
+                        //淡入
+                        $('.middle_bottom').addClass('fadeInLeft_2s');
+                    }
+                    if ($(window).scrollTop() >= 1500) {
+                        //淡入
+                        $('.bottom_item_list').addClass('fadeIn_3s');
+                    }
+                });
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <style>
+    </style>
+    <div class="header fadeInLeft_2s">
+        <div class="nav">
+            <div class="nav_container">
+                <div class="nav_left">
+                    <img src="img/logo_duoyidian_nav.png" class="nav_left_img" alt="多益点,拼多多,导购" />
+                </div>
+                <div class="nav_left_">
+                    <img src="img/logo_duoyidian_nav_red.png" class="nav_left_img" alt="多益点,拼多多,导购" />
+                </div>
+                <div class="nav_right" style="">
+                    <a class="nav_login_btn" title="多益点,拼多多,导购"
+                        onclick="window.location.href='http://pddmc.hzduomi.net/admin/login'">登录</a>
+                    <a class="nav_reg_btn" title="多益点,拼多多,导购"
+                        onclick="window.location.href='http://pddmc.hzduomi.net/admin/merchant/user/register'">注册</a>
+                </div>
+            </div>
+        </div>
+        <div class="banner_box">
+            <div class="banner_container">
+                <div class="banner_container_info_box">
+                    <div class="banner_container_info">
+                        <div>
+                            <div class="banner_info_logo">
+                                <img src="https://bnlnimg.bnln100.com/logo_duoyidian.png" alt="多益点,拼多多,导购" />
+                            </div>
+                            <div class="banner_info_slogan">
+                                <h1>新媒体，用多益点，赚多一点</h1>
+                            </div>
+                            <a class="banner_info_btn" title="多益点,拼多多,导购"
+                                onclick="window.location.href='http://pddmc.hzduomi.net/admin/merchant/user/register'">现在注册</a>
+                            <div
+                                style="font-size:.5rem;color:rgb(239, 255, 119);font-weight: bolder;padding-top: .2rem;">
+                                内测期间，免费申请</div>
+                        </div>
+                    </div>
+                </div>
+                <img src="https://bnlnimg.bnln100.com/banner_duoyidian.png" alt="banner">
+                <!-- <div style="position:absolute;bottom:.5rem;right:.5rem;font-size:.5rem;color:#fff;">*内测期间，免费申请</div> -->
+            </div>
+        </div>
+    </div>
+    <style>
+    </style>
+    <div class="middle fadeInBottom_1s">
+        <div class="item_box border_62">
+            <div class="item_container">
+                <div>
+                    <div class="item_title">一键生成小程序</div>
+                    <div class="c_62">组件化页面装修，轻松彰显个性 </div>
+                    <div class="c_62">提升公众号的功能性，轻松拥有小程序</div>
+                </div>
+            </div>
+            <div class="item_img_container">
+                <div class="item_img">
+                    <img src="https://bnlnimg.bnln100.com/onekey_program.png" alt="多益点,拼多多,导购">
+                </div>
+            </div>
+        </div>
+        <div class="item_box border_62">
+            <div class="item_container">
+                <div>
+                    <div class="item_title">一键配置H5商城</div>
+                    <div class="c_62">自定义商品 </div>
+                    <div class="c_62">一键生成独家H5商城</div>
+                </div>
+            </div>
+            <div class="item_img_container">
+                <div class="item_img">
+                    <img src="https://bnlnimg.bnln100.com/onekey_h5.png" alt="多益点,拼多多,导购">
+                </div>
+            </div>
+        </div>
+        <div class="item_box">
+            <div class="item_container">
+                <div>
+                    <div class="item_title">一站式运营全服务</div>
+                    <div class="c_62">选品、文案、用户画像分析等全流程服务 </div>
+                    <div class="c_62">海量营销玩法配置，提升销售转化与复购率</div>
+                </div>
+            </div>
+            <div class="item_img_container">
+                <div class="item_img">
+                    <img src="https://bnlnimg.bnln100.com/onekey_service.png" alt="多益点,拼多多,导购">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mid_item_list middle_bottom">
+        <div class="mid_item_list_container">
+            <div class="mid_item_header">
+                <div class="mid_item_title_bg">DUOHAODAN</div>
+                <div class="mid_item_title">多好单</div>
+            </div>
+            <div class="d_flex">
+                <div class="mid_item_box">
+                    <div class="mid_item_img">
+                        <img src="img/timing_menu.png" alt="多益点,拼多多,导购">
+                    </div>
+                    <div class="mid_item_info">实时榜单</div>
+                </div>
+                <div class="mid_item_box">
+                    <div class="mid_item_img">
+                        <img src="img/daily_hot.png" alt="多益点,拼多多,导购">
+                    </div>
+                    <div class="mid_item_info">每日爆款</div>
+                </div>
+                <div class="mid_item_box">
+                    <div class="mid_item_img">
+                        <img src="img/classic_topic.png" alt="多益点,拼多多,导购">
+                    </div>
+                    <div class="mid_item_info">精选专题</div>
+                </div>
+                <div class="mid_item_box">
+                    <div class="mid_item_img">
+                        <img src="img/classic_text.png" alt="多益点,拼多多,导购">
+                    </div>
+                    <div class="mid_item_info">精编文案</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+    </style>
+    <div class="bottom_item_list">
+        <div class="bottom_item_container">
+            <div class="bottom_item_header">
+                <div class="bottom_item_title_bg">DUOSHUJU</div>
+                <div class="bottom_item_title">多数据</div>
+            </div>
+            <div class="d_flex">
+                <div class="bottom_item_box">
+                    <img src="https://bnlnimg.bnln100.com/hot_spot.png" alt="多益点,拼多多,导购">
+                    <div class="bottom_item_info">
+                        <div class="bottom_item_text">舆情热点</div>
+                    </div>
+                </div>
+                <div class="bottom_item_box">
+                    <img src="https://bnlnimg.bnln100.com/industry_info.png" alt="多益点,拼多多,导购">
+                    <div class="bottom_item_info">
+                        <div class="bottom_item_text">行业资讯</div>
+                    </div>
+                </div>
+                <div class="bottom_item_box">
+                    <img src="https://bnlnimg.bnln100.com/commercial_evaluate.png" alt="多益点,拼多多,导购">
+                    <div class="bottom_item_info">
+                        <div class="bottom_item_text w_r_5">公众号商业化评估</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <div class="mid_item_list middle_bottom">
+        <div class="mid_item_list_container">
+            <div class="mid_item_header">
+                <div class="mid_item_title_bg">CHANGJING·ANLI</div>
+                <div class="mid_item_title">场景 · 案例</div>
+            </div>
+            <div class="d_flex content_list">
+                <div class="mid_item_box_">
+                    <div class="pos_r">
+                        <div class="img_"
+                            style="background-image:url(https://bnlnimg.bnln100.com/qr_duoyidian_1_bg.png);">
+                        </div>
+                        <div class="_img_"
+                            style="background-image:url(https://bnlnimg.bnln100.com/qr_duoyidian_1.png);">
+                        </div>
+                    </div>
+                    <div class="mid_item_info_">超级购物券</div>
+                </div>
+                <div class="mid_item_box_">
+                    <div class="pos_r">
+                        <div class="img_"
+                            style="background-image:url(https://bnlnimg.bnln100.com/qr_duoyidian_2_bg.png);">
+                        </div>
+                        <div class="_img_"
+                            style="background-image:url(https://bnlnimg.bnln100.com/qr_duoyidian_2.png);">
+                        </div>
+                    </div>
+                    <div class="mid_item_info_">多麦麦</div>
+                </div>
+                <div class="mid_item_box_">
+                    <div class="pos_r">
+                        <div class="img_"
+                            style="background-image:url(https://bnlnimg.bnln100.com/qr_duoyidian_3_bg.png);">
+                        </div>
+                        <div class="_img_"
+                            style="background-image:url(https://bnlnimg.bnln100.com/qr_duoyidian_3.png);">
+                        </div>
+                    </div>
+                    <div class="mid_item_info_">中通·活动推文</div>
+                </div>
+                <div class="mid_item_box_">
+                    <div class="pos_r">
+                        <div class="img_"
+                            style="background-image:url(https://bnlnimg.bnln100.com/qr_duoyidian_4_bg.png);">
+                        </div>
+                        <div class="_img_"
+                            style="background-image:url(https://bnlnimg.bnln100.com/qr_duoyidian_4.png);">
+                        </div>
+                    </div>
+                    <div class="mid_item_info_">学点东西·精品推荐</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <style>
+    </style>
+    <div class="footer_">
+        <div class="footer_container">
+            <div class="footer_content" style="font-size:.4rem;">
+                <div class="footer_right">
+                    <div class="footer_right_content">
+                        <div class="footer_right_img">
+                            <img src="https://bnlnimg.bnln100.com/wx_code.png" alt="多益点,拼多多,导购">
+                        </div>
+                        <div class="footer_right_img">
+                            <img src="https://bnlnimg.bnln100.com/wx_code_.png" alt="多益点,拼多多,导购">
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_mid">
+                    <div class="footer_mid_content">
+                        <!-- <div>联系多益点 </div> -->
+                        <!-- <div style="font-size:.5rem;margin-bottom:.2rem;">联系多米 </div> -->
+                        <div style="font-size:.5rem;margin-bottom:.2rem;">联系多益点 </div>
+                        <div>邮箱：ruizhiyun2019@sina.com</div>
+                        <div>电话：400-023-0307</div>
+                        <div>地址：深圳市南山区科技园南路地质大学产学基地A302</div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <div class="footer_bottom_content">
+                    <div>©2014-<span class="temp_year">2018</span> 深圳市睿智伝科技有限公司 版权所有</div>
+                    <!-- <div>©2014-<span class="temp_year">2018</span> 深圳华众时代新媒体创意有限公司 版权所有</div> -->
+                    <a class="to_gov_btn" onclick="window.location.href = 'http://www.beian.miit.gov.cn';"
+                        style="cursor:pointer;">粤ICP备16012990号-3</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="footer_container">
+            <div class="footer_content" style="font-size:.4rem;">
+                <div class="footer_left">
+                    <div class="footer_left_content">
+                        <div class="footer_img_content"><img src="img/logo_duoyidian_footer.png" /></div>
+                        <div>©2014-<span class="temp_year">2018</span> 深圳市睿智伝科技有限公司 版权所有</div>
+                        <!-- <div>©2014-<span class="temp_year">2018</span> 深圳华众时代新媒体创意有限公司 版权所有</div> -->
+                        <a class="to_gov_btn" onclick="window.location.href = 'http://www.beian.miit.gov.cn';"
+                            style="cursor:pointer;">粤ICP备19064714号</a>
+                    </div>
+                </div>
+                <div class="footer_mid">
+                    <div class="footer_mid_content">
+                        <!-- <div>联系多益点 </div> -->
+                        <!-- <div style="font-size:.5rem;margin-bottom:.2rem;">联系多米 </div> -->
+                        <div style="font-size:.5rem;margin-bottom:.2rem;">联系<strong>多益点</strong></div>
+                        <div>邮箱：ruizhiyun2019@sina.com</div>
+                        <div>电话：400-023-0307</div>
+                        <div>地址：深圳市南山区科技园南路地质大学产学基地A302</div>
+                    </div>
+                </div>
+                <div class="footer_right">
+                    <div class="footer_right_content">
+                        <div class="footer_right_img">
+                            <img src="https://bnlnimg.bnln100.com/wx_code.png" alt="多益点,拼多多,导购">
+                        </div>
+                        <div class="footer_right_img">
+                            <img src="https://bnlnimg.bnln100.com/wx_code_.png" alt="多益点,拼多多,导购">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
